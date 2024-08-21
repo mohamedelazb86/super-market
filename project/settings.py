@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # my package
     "django_bootstrap5",
     "taggit" ,
+    'django_summernote', 
 
     # my apps
 
@@ -156,3 +157,5 @@ EMAIL_HOST_PASSWORD = 'yayuhpiaczxwwaxu'
 EMAIL_USE_SSL = False
 
 AUTHENTICATION_BACKENDS=['accounts.backend.Login_Username_Email']
+
+LOGIN_REDIRECT_URL = '/'
